@@ -22,13 +22,14 @@ using namespace std;
 int main()
 {
     const int n_col = 5;
+    int test;
     char recommencer = 'O';
 
     while (recommencer == 'O')
     {
         int limite;
 
-        // On va Sqisir une la limite
+        // On va Saisir une la limite
         cout << "Entrez une limite entre 2 et 1000 : ";
         cin >> limite;
 
